@@ -68,7 +68,7 @@ public class LoginController {
             System.out.println(searched.getEmployeePosition());
 
         }else {
-            System.out.println("Employee not found");
+            System.out.println("This Employee can not found");
 
         }
 
