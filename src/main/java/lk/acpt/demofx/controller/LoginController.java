@@ -34,7 +34,7 @@ public class LoginController {
         if(saved){
             System.out.println("Saved Success.........!");
         }else {
-            System.out.println("Failed....!");
+            System.out.println("Save Failed....!");
         }
 
 
