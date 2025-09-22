@@ -88,7 +88,8 @@ public class LoginController {
 
         Employee updated = service.update(new EmployeeDto(number,name,addrees,position));
         if (updated != null) {
-            System.out.println("Updated : "+ updated.getIdNo());
+            System.out.println(" ------new Updated------ " );
+            System.out.println(updated.getIdNo());
             System.out.println(updated.getEmployeeName());
             System.out.println(updated.getEmployeeAddrees());
             System.out.println(updated.getEmployeePosition());
