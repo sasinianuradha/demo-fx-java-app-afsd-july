@@ -45,6 +45,7 @@ public class EmployeeServiceImpl implements EmployeeService {
                 deleteEmployee.setEmployeeName("null");
                 deleteEmployee.setEmployeeAddrees("null");
                 deleteEmployee.setEmployeePosition("null");
+                System.out.println("delete employee(bug/fix)");
 
                 return true;
             }
